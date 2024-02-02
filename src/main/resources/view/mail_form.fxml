@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="499.0" prefWidth="475.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mailsender.controller.MailFormController">
+   <children>
+      <JFXTextField fx:id="txtTo" layoutX="109.0" layoutY="54.0" prefHeight="27.0" prefWidth="302.0" />
+      <JFXTextField fx:id="txtSubject" layoutX="109.0" layoutY="95.0" prefHeight="27.0" prefWidth="302.0" />
+      <TextArea fx:id="txtMsg" layoutX="109.0" layoutY="150.0" prefHeight="200.0" prefWidth="302.0" />
+      <TextField fx:id="txtFile" editable="false" layoutX="109.0" layoutY="366.0" prefHeight="27.0" prefWidth="266.0" />
+      <JFXButton layoutX="384.0" layoutY="366.0" onAction="#attachmentOnAction" text="A" />
+      <JFXButton layoutX="215.0" layoutY="422.0" onAction="#sendOnAction" text="Send" />
+      <Label layoutX="51.0" layoutY="73.0" text="To  :" />
+      <Label layoutX="51.0" layoutY="109.0" text="Subject  :" />
+      <Label layoutX="49.0" layoutY="150.0" text="Massege  :" />
+      <Label layoutX="49.0" layoutY="371.0" text="File  :" />
+   </children>
+</AnchorPane>
