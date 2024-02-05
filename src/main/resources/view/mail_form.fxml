@@ -10,21 +10,21 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="533.0" prefWidth="475.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mailsender.controller.MailFormController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="533.0" prefWidth="475.0" style="-fx-background-color: #030637;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mailsender.controller.MailFormController">
    <children>
-      <JFXTextField fx:id="txtTo" layoutX="116.0" layoutY="86.0" prefHeight="27.0" prefWidth="302.0" />
-      <JFXTextField fx:id="txtSubject" layoutX="116.0" layoutY="127.0" prefHeight="27.0" prefWidth="302.0" />
-      <TextArea fx:id="txtMsg" layoutX="116.0" layoutY="182.0" prefHeight="200.0" prefWidth="302.0" />
-      <TextField fx:id="txtFile" editable="false" layoutX="116.0" layoutY="398.0" prefHeight="27.0" prefWidth="266.0" />
-      <JFXButton layoutX="391.0" layoutY="398.0" onAction="#attachmentOnAction" prefHeight="40.0" prefWidth="59.0" styleClass="btnAdd" stylesheets="@../styles/button.css" text=" ">
+      <JFXTextField fx:id="txtTo" layoutX="113.0" layoutY="105.0" prefHeight="27.0" prefWidth="302.0" stylesheets="@../styles/text.css" />
+      <JFXTextField fx:id="txtSubject" layoutX="113.0" layoutY="155.0" prefHeight="27.0" prefWidth="302.0" stylesheets="@../styles/text.css" />
+      <TextArea fx:id="txtMsg" layoutX="113.0" layoutY="204.0" prefHeight="200.0" prefWidth="302.0" styleClass="text-area" stylesheets="@../styles/text.css" />
+      <TextField fx:id="txtFile" editable="false" layoutX="113.0" layoutY="420.0" prefHeight="27.0" prefWidth="266.0" stylesheets="@../styles/text.css" />
+      <JFXButton layoutX="388.0" layoutY="420.0" onAction="#attachmentOnAction" prefHeight="30.0" prefWidth="48.0" styleClass="btnAdd" stylesheets="@../styles/button.css" text=" ">
          <graphic>
-            <ImageView fitHeight="22.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="22.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../asserts/image/attachment.png" />
                </image>
             </ImageView>
          </graphic></JFXButton>
-      <JFXButton layoutX="222.0" layoutY="454.0" onAction="#sendOnAction" styleClass="btnSend" stylesheets="@../styles/button.css" text="Send">
+      <JFXButton layoutX="187.0" layoutY="469.0" onAction="#sendOnAction" prefHeight="33.0" prefWidth="118.0" styleClass="btnSend" stylesheets="@../styles/button.css" text="Send">
          <graphic>
             <ImageView fitHeight="25.0" fitWidth="58.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -32,11 +32,11 @@
                </image>
             </ImageView>
          </graphic></JFXButton>
-      <Label layoutX="58.0" layoutY="105.0" text="To  :" />
-      <Label layoutX="58.0" layoutY="141.0" text="Subject  :" />
-      <Label layoutX="56.0" layoutY="182.0" text="Massege  :" />
-      <Label layoutX="56.0" layoutY="403.0" text="File  :" />
-      <Label layoutX="137.0" layoutY="22.0" text="MAIL SENDER">
+      <Label layoutX="48.0" layoutY="111.0" text="To  :" textFill="WHITE" />
+      <Label layoutX="48.0" layoutY="164.0" text="Subject  :" textFill="WHITE" />
+      <Label layoutX="48.0" layoutY="211.0" text="Massege  :" textFill="WHITE" />
+      <Label layoutX="48.0" layoutY="428.0" text="File  :" textFill="WHITE" />
+      <Label layoutX="137.0" layoutY="22.0" text="MAIL SENDER" textFill="WHITE">
          <font>
             <Font name="Times New Roman Bold" size="33.0" />
          </font>

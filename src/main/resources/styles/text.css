@@ -1,0 +1,17 @@
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-border-color: black;
+    -fx-font-size: 15;
+    -fx-border-radius: 5;
+    -fx-background-radius: 10;
+    -fx-border-width: bold;
+}
+
+.text-area {
+    -fx-background-color: #ffffff;
+    -fx-border-color: black;
+    -fx-font-size: 15;
+    -fx-border-radius: 5;
+    -fx-background-radius: 10;
+    -fx-border-width: bold;
+}
