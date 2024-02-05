@@ -1,0 +1,28 @@
+.btnSend{
+    -fx-border-radius: 25;
+    -fx-background-radius: 25;
+    -fx-background-color: #738CF2;
+    -fx-text-fill: black;
+    -fx-font-size: 20;
+    -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.3),10.0 , 0.0 , 0.0 , 13.0);
+    -fx-cursor: hand;
+}
+
+.btnAdd{
+    -fx-border-radius: 25;
+    -fx-background-radius: 25;
+    -fx-background-color: #738CF2;
+    -fx-text-fill: black;
+    -fx-font-size: 20;
+    -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.3),10.0 , 0.0 , 0.0 , 13.0);
+    -fx-cursor: hand;
+}
+
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-border-color: black;
+    -fx-font-size: 24;
+    -fx-border-radius: 5;
+    -fx-background-radius: 10;
+    -fx-border-width: bold;
+}
